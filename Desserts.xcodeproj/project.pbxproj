@@ -13,6 +13,7 @@
 		E4668AB02A4212E400151E57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4668AAF2A4212E400151E57 /* Preview Assets.xcassets */; };
 		E4668AD32A422CBF00151E57 /* DessertStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD22A422CBF00151E57 /* DessertStruct.swift */; };
 		E4668AD52A422CD500151E57 /* DessertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD42A422CD500151E57 /* DessertData.swift */; };
+		E4668AD82A4239C300151E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD72A4239C300151E57 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		E4668ABF2A4212E400151E57 /* DessertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4668AD22A422CBF00151E57 /* DessertStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertStruct.swift; sourceTree = "<group>"; };
 		E4668AD42A422CD500151E57 /* DessertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertData.swift; sourceTree = "<group>"; };
+		E4668AD72A4239C300151E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E4668AA72A4212E100151E57 /* Desserts */ = {
 			isa = PBXGroup;
 			children = (
+				E4668AD72A4239C300151E57 /* AppDelegate.swift */,
 				E4668AA82A4212E100151E57 /* DessertsApp.swift */,
 				E4668AAA2A4212E100151E57 /* ContentView.swift */,
 				E4668AD62A422CE300151E57 /* API Data */,
@@ -249,6 +252,7 @@
 				E4668AD52A422CD500151E57 /* DessertData.swift in Sources */,
 				E4668AAB2A4212E100151E57 /* ContentView.swift in Sources */,
 				E4668AD32A422CBF00151E57 /* DessertStruct.swift in Sources */,
+				E4668AD82A4239C300151E57 /* AppDelegate.swift in Sources */,
 				E4668AA92A4212E100151E57 /* DessertsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
