@@ -14,6 +14,9 @@
 		E4668AD32A422CBF00151E57 /* DessertStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD22A422CBF00151E57 /* DessertStruct.swift */; };
 		E4668AD52A422CD500151E57 /* DessertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD42A422CD500151E57 /* DessertData.swift */; };
 		E4668AD82A4239C300151E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD72A4239C300151E57 /* AppDelegate.swift */; };
+		E4668ADA2A42860D00151E57 /* DessertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD92A42860D00151E57 /* DessertDetails.swift */; };
+		E4668ADC2A42861400151E57 /* DessertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668ADB2A42861400151E57 /* DessertItem.swift */; };
+		E4668ADE2A42875700151E57 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668ADD2A42875700151E57 /* UtilityFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E4668AD22A422CBF00151E57 /* DessertStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertStruct.swift; sourceTree = "<group>"; };
 		E4668AD42A422CD500151E57 /* DessertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertData.swift; sourceTree = "<group>"; };
 		E4668AD72A4239C300151E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4668AD92A42860D00151E57 /* DessertDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetails.swift; sourceTree = "<group>"; };
+		E4668ADB2A42861400151E57 /* DessertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertItem.swift; sourceTree = "<group>"; };
+		E4668ADD2A42875700151E57 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,9 @@
 				E4668AD72A4239C300151E57 /* AppDelegate.swift */,
 				E4668AA82A4212E100151E57 /* DessertsApp.swift */,
 				E4668AAA2A4212E100151E57 /* ContentView.swift */,
+				E4668AD92A42860D00151E57 /* DessertDetails.swift */,
+				E4668ADB2A42861400151E57 /* DessertItem.swift */,
+				E4668ADD2A42875700151E57 /* UtilityFunctions.swift */,
 				E4668AD62A422CE300151E57 /* API Data */,
 				E4668AAC2A4212E400151E57 /* Assets.xcassets */,
 				E4668AAE2A4212E400151E57 /* Preview Content */,
@@ -252,7 +261,10 @@
 				E4668AD52A422CD500151E57 /* DessertData.swift in Sources */,
 				E4668AAB2A4212E100151E57 /* ContentView.swift in Sources */,
 				E4668AD32A422CBF00151E57 /* DessertStruct.swift in Sources */,
+				E4668ADA2A42860D00151E57 /* DessertDetails.swift in Sources */,
 				E4668AD82A4239C300151E57 /* AppDelegate.swift in Sources */,
+				E4668ADC2A42861400151E57 /* DessertItem.swift in Sources */,
+				E4668ADE2A42875700151E57 /* UtilityFunctions.swift in Sources */,
 				E4668AA92A4212E100151E57 /* DessertsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

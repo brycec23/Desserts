@@ -15,6 +15,8 @@ var foodIds = [String]()
 let allDesertsQueryUrl = "https://themealdb.com/api/json/v1/1/filter.php?c=Dessert"
 let dessertIdQueryUrl = "https://themealdb.com/api/json/v1/1/lookup.php?i="
 
+
+//Call Desserts endpoint to get all dessert IDs.
 public func getFoodIds() {
     //no need to query if array already populated
     if !desserts.isEmpty {
@@ -106,7 +108,7 @@ public func getFoodIds() {
     
 }
 
-
+//Call id endpoint for each dessert id and populate desserts array with Dessert structs.
 public func getFoodsFromApi() {
     for food in foodIds {
         let queryUrl = URL(string: dessertIdQueryUrl + food)
@@ -192,6 +194,7 @@ public func getFoodsFromApi() {
                         imageUrl = strMealThumb
                     }
                     
+                    //build array of tags from list
                     var tags = ""
                     if let strTags = dessertDictionary["strTags"] as? String {
                         tags = strTags
@@ -206,23 +209,27 @@ public func getFoodsFromApi() {
                         videoUrl = strYoutube
                     }
                     
+                    //build array of ingredients
                     var ingredientsArr = [String]()
                     for i in 1...20 {
                         var ingredient = ""
                         if let strIngredient = dessertDictionary["strIngredient" + String(i)] as? String {
                             ingredient = strIngredient
                         }
+                        //filter out empty entries
                         if ingredient != "" && ingredient != " " {
                             ingredientsArr.append(ingredient.capitalized)
                         }
                     }
                     
+                    //build array of measurements
                     var measuresArr = [String]()
                     for i in 1...20 {
                         var measure = ""
                         if let strMeasure = dessertDictionary["strMeasure" + String(i)] as? String {
                             measure = strMeasure
                         }
+                        //filter out empty entries
                         if measure != "" && measure != " "{
                             measuresArr.append(measure)
                         }
