@@ -14,7 +14,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         getFoodIds()
         getFoodsFromApi()
-        print(desserts)
         return true
     }
 }

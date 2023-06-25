@@ -17,6 +17,7 @@
 		E4668ADA2A42860D00151E57 /* DessertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668AD92A42860D00151E57 /* DessertDetails.swift */; };
 		E4668ADC2A42861400151E57 /* DessertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668ADB2A42861400151E57 /* DessertItem.swift */; };
 		E4668ADE2A42875700151E57 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668ADD2A42875700151E57 /* UtilityFunctions.swift */; };
+		E4668AE02A4901EB00151E57 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4668ADF2A4901EB00151E57 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		E4668AD92A42860D00151E57 /* DessertDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetails.swift; sourceTree = "<group>"; };
 		E4668ADB2A42861400151E57 /* DessertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertItem.swift; sourceTree = "<group>"; };
 		E4668ADD2A42875700151E57 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		E4668ADF2A4901EB00151E57 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E4668AA82A4212E100151E57 /* DessertsApp.swift */,
 				E4668AAA2A4212E100151E57 /* ContentView.swift */,
 				E4668AD92A42860D00151E57 /* DessertDetails.swift */,
+				E4668ADF2A4901EB00151E57 /* WebView.swift */,
 				E4668ADB2A42861400151E57 /* DessertItem.swift */,
 				E4668ADD2A42875700151E57 /* UtilityFunctions.swift */,
 				E4668AD62A422CE300151E57 /* API Data */,
@@ -264,6 +267,7 @@
 				E4668ADA2A42860D00151E57 /* DessertDetails.swift in Sources */,
 				E4668AD82A4239C300151E57 /* AppDelegate.swift in Sources */,
 				E4668ADC2A42861400151E57 /* DessertItem.swift in Sources */,
+				E4668AE02A4901EB00151E57 /* WebView.swift in Sources */,
 				E4668ADE2A42875700151E57 /* UtilityFunctions.swift in Sources */,
 				E4668AA92A4212E100151E57 /* DessertsApp.swift in Sources */,
 			);
