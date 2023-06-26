@@ -84,6 +84,7 @@
 		E4668A9C2A4212E100151E57 = {
 			isa = PBXGroup;
 			children = (
+				E4668AE12A490A3200151E57 /* README.md */,
 				E4668AA72A4212E100151E57 /* Desserts */,
 				E4668AA62A4212E100151E57 /* Products */,
 			);
@@ -109,7 +110,6 @@
 				E4668ADF2A4901EB00151E57 /* WebView.swift */,
 				E4668ADB2A42861400151E57 /* DessertItem.swift */,
 				E4668ADD2A42875700151E57 /* UtilityFunctions.swift */,
-				E4668AE12A490A3200151E57 /* README.md */,
 				E4668AD62A422CE300151E57 /* API Data */,
 				E4668AAC2A4212E400151E57 /* Assets.xcassets */,
 				E4668AAE2A4212E400151E57 /* Preview Content */,
