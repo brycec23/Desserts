@@ -4,6 +4,7 @@
 //
 //  Created by Bryce Cullen on 6/20/23.
 //
+// Contains code for query API for desserts and parsing JSON data into Dessert structs. Called on app launch.
 
 import Foundation
 import SwiftUI

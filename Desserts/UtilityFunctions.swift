@@ -4,6 +4,7 @@
 //
 //  Created by Bryce Cullen on 6/20/23.
 //
+//  List of utility functions used in code.
 
 import Foundation
 import SwiftUI

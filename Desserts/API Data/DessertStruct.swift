@@ -4,6 +4,7 @@
 //
 //  Created by Bryce Cullen on 6/20/23.
 //
+// Dessert Struct created from JSON data from API.
 
 import SwiftUI
 
@@ -22,6 +23,7 @@ struct Dessert: Hashable, Codable, Identifiable {
 }
 
 /*
+ API STRUCTURE
  FROM https://themealdb.com/api/json/v1/1/filter.php?c=Dessert
  {"meals":
     [

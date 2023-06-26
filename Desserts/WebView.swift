@@ -4,6 +4,7 @@
 //
 //  Created by Bryce Cullen on 6/25/23.
 //
+//  Custom web view to visit web pages in-app.
 
 import SwiftUI
 import WebKit

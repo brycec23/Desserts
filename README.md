@@ -10,7 +10,7 @@
 ## Structure:
 - The desserts (DessertItem) are all displayed in ContentView as a simple list in alphabetical order.
 - Tapping on a dessertItem navigates to the DessertDetails view which elegantly displays all the information about that dessert to the user.
-- The Dessert Details view is broken into 3 sections: A header which contains the name, origin, and image for the dessert, A section for the recipe containing the ingredients and instructions, And a section containing the video and source links that navigate the user to an in-app custom web view.
+- The Dessert Details view is split into 3 sections: A header which contains the name, origin, and image for the dessert, A section for the recipe containing the ingredients and instructions, And a section containing the video and source links that navigate the user to an in-app custom web view.
 
 ## Features:
 Beyond those specified, I have added a few features:

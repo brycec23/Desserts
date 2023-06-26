@@ -4,6 +4,7 @@
 //
 //  Created by Bryce Cullen on 6/20/23.
 //
+//  Main list of desserts shown on home screen. Navigate to dessert details page by tapping on each dessert.
 
 import SwiftUI
 

@@ -4,6 +4,7 @@
 //
 //  Created by Bryce Cullen on 6/20/23.
 //
+//  Dessert Details page shown for each dessert. All relevant info is shown with options to watch video or visit web page.
 
 import SwiftUI
 
@@ -77,20 +78,6 @@ struct DessertDetails: View {
             
         }.navigationBarTitle("", displayMode: .inline)
             .padding([.leading, .trailing],20)
-    }
-}
-
-struct iOSCheckboxToggleStyle: ToggleStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        Button(action: {
-            configuration.isOn.toggle()
-            
-        }, label: {
-            HStack {
-                Image(systemName: configuration.isOn ? "checkmark.square" : "square")
-                configuration.label
-            }
-        })
     }
 }
 

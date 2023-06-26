@@ -4,6 +4,7 @@
 //
 //  Created by Bryce Cullen on 6/20/23.
 //
+//  Run API queries on app launch.
 
 import SwiftUI
 import UIKit
